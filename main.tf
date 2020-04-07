@@ -9,7 +9,7 @@ provider "azurerm" {
 
 # Create a resource group if it doesn’t exist
 resource "azurerm_resource_group" "backuprg" {
-    name     = "var.prefix-ResourceGroup"
+    name     = "{var.prefix}-ResourceGroup"
     location = var.location
 
     tags = {
