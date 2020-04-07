@@ -4,7 +4,7 @@ provider "azurerm" {
     client_id       = "7838c180-37d1-4ef8-a13b-b872a00d5c96"
     client_secret   = var.secret
     tenant_id       = "6e06e42d-6925-47c6-b9e7-9581c7ca302a"
-    features {}
+    features {} 
 }
 
 # Create a resource group if it doesn’t exist
